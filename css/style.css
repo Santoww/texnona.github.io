@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body {
+  height: 100vh;
+  background: url(img/Bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 10%;
+	box-shadow: 0 5px 10px orange;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0
+
+}
+
+header .logo{
+	height: 50px;
+	width: 80px;
+	background: transparent;
+	transition: .5s;
+}
+	
+header .logo:hover{
+	transform: scale(1.2);
+	
+}
+
+
+header nav ul li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	padding: 20px 30px;
+	color: black;
+	font-size: 20px;
+	display: block;
+	
+}
+header nav ul li a:hover{
+	background: black;
+	color: white;
+}
+
+.type-of-car {
+	padding:20% 12%;
+}
+
+.cars {
+	list-style-tupe: none;
+	padding: 2%;
+	
+}
+
+.cars li{
+	padding: 10px 0px;
+	font-size: 20px;
+}
